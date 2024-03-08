@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+
+<body>
+
+<header class="header">
+    <div class="container">
+        <div class="logo">
+            <img src="images/homeWorks.png" alt="logo">
+        </div>
+    </div>
+</header>
+
+<section class="main">
+    <div class="container">
+        <div class="registration">
+            <div class="registration-title" id="registrationTitle">
+                Get your free account
+            </div>
+            <div class="registration-text">
+                Try homeWorks BUSINESS free for 15 days. Downgrade to Basic (Free Forever) anytime.
+            </div>
+
+            <form action="" method="POST" class="registration-form" id="form">
+                <div class="registration-form-title" id="removedFullName">
+                    <label>
+                        Full Name
+                        <input type="text" class="form-input" id="name-input">
+                        <div class="error-input">
+                            Введите Ваш Full Name (поле может содержать только буквы и пробел)
+                        </div>
+                    </label>
+
+                </div>
+                <div class="registration-form-title">
+                    <label>
+                        Your username
+                        <input type="text" class="form-input" id="username-input">
+                        <div class="error-input">
+                            Введите Ваш Your username (поле может содержать только буквы, цифры, символ подчеркивания и
+                            тире)
+                        </div>
+                        <div class="error-user" id="errorUser">
+                            «Такой пользователь не зарегистрирован»
+                        </div>
+                    </label>
+                </div>
+                <div class="registration-form-title input-removed" id="removedEmail">
+                    <label>
+                        E-mail
+                        <input type="email" class="form-input" id="email-input">
+                        <div class="error-input">
+                            Введите Ваш E-mail (поле может содержать "Латинские буквы, символы "@" ".")
+                        </div>
+                    </label>
+                </div>
+                <div class="registration-form-title">
+                    <label>
+                        Password
+                        <input type="text" class="form-input" id="password-input">
+                        <div class="error-input">
+                            Введите Ваш Password (поле пароля должно содержать минимум 8 символов, среди которых есть:
+                            - хотя бы одна буква в верхнем регистре
+                            - хотя бы одна цифра
+                            - хотя бы один спецсимвол)
+                        </div>
+                        <div class="error-password" id="errorPassword">
+                            «Неверный пароль»
+                        </div>
+                    </label>
+                </div>
+                <div class="registration-form-title" id="removedRepeatPassword">
+                    <label>
+                        Repeat Password
+                        <input type="text" class="form-input" id="repeat-password-input">
+                        <div class="error-input">
+                            Введите Ваш Repeat Password
+                        </div>
+                        <div class="error-password" id="error-password">
+                            Пароли не совпадают
+                        </div>
+                    </label>
+                </div>
+
+
+                <div class="agree" id="removedAgree">
+                    <label>
+                        <input type="checkbox" id="agreeCheckbox">
+                        <span>Agree to our Terms of Service and Privacy Statement</span>
+                        <div class="error-input" id="privacy">
+                            Согласитесь с нашими Условиями обслуживания и Положением о конфиденциальности
+                        </div>
+                    </label>
+
+
+                </div>
+                <div class="button-action">
+                    <button class="button" id="button-signUp" type="button">Sign Up</button>
+                </div>
+            </form>
+
+            <div class="registrationExtra" id="registrationExtra">
+                <a href="#">Registration</a>
+            </div>
+
+            <div class="registration-account" id="account">
+                <a href="#">Already have an account?</a>
+            </div>
+
+        </div>
+
+        <div class="main-image">
+            <div class="container">
+                <img src="images/image3.png" alt="">
+                <img class="ellipse1" src="images/Ellipse3.png" alt="ellipse1">
+                <img class="ellipse2" src="images/Ellipse3.png" alt="ellipse2">
+                <img class="ellipse3" src="images/Ellipse3.png" alt="ellipse3">
+                <img class="rocket" src="images/image2.png" alt="rocket">
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="popup-container" id="popup">
+    <div class="popup">
+        A link has been sent to your email, follow it to complete registration.
+        <div class="button-pop">
+            <button class="button" id="buttonPop" type="button">ОК</button>
+        </div>
+    </div>
+</div>
+
+<script src="js/code.jquery.com_jquery-3.7.1.min.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>
+
+
+
+
+
